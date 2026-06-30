@@ -112,7 +112,20 @@
 // let logicalor= 10>20 || 10!=10
 // console.log(logicalor)
 
-let loggedinuser=true
+// let loggedinuser=true
 
-console.log(!loggedinuser)
+// console.log(!loggedinuser)
+
+// let greetmessage="Hello"
+
+// let username="Shanmukh"
+
+// let combinedstr=greetmessage + username
+
+// let properstatement= greetmessage + " " + "...."+ username+" " +"how are you"
+
+
+// console.log("1+2")
+
+
 
