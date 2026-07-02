@@ -34,3 +34,6 @@ for(let num=1; num < 11;num++){
 
 //num++ 0->1 ->2 ->3 ->4 ->5
 }
+
+//task 1 print 1 to 10 but in place of 5, 10 print javascript
+//task 2 print all even nums from 1 to 50, and odd from 1 to 50
