@@ -100,12 +100,14 @@ class BankAccount{
 }
 
 const customer1=new BankAccount("Shanmukh",10000)
+const customer2=new BankAccount("Sanyam",20000)
 
-console.log(customer1)
+console.log(customer1,customer2)
 
 customer1.balancecheck()
+customer2.balancecheck()
 
-student.result()
+// student.result()
 
 
 //create result generator->task

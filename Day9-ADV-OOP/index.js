@@ -20,30 +20,30 @@
 // }
 
 
-// function Buynow(a,b,c){
-//         console.log(`${a} ${b} has purchased ${this.name}`)
-//     }
+function Buynow(a,b,c){
+        console.log(`${a} ${b} has purchased ${this.name}`)
+    }
 
-// let pro1={
-//     name:"iphone 14",
-//     price:20000,
+let pro1={
+    name:"iphone 14",
+    price:20000,
    
-// }
-// //call
-// let bnc=Buynow.call(pro1,"shanmukh","praveen","sai")
+}
+//call
+let bnc=Buynow.call(pro1,"shanmukh","praveen","sai")
 
 
 
-// let pro2={
-//     name:"iphone 15",
-//     price:20000,
-//      Buynow:function(){
-//         console.log(`${this.name} prchased`)
-//     }
+let pro2={
+    name:"iphone 15",
+    price:20000,
+     Buynow:function(){
+        console.log(`${this.name} prchased`)
+    }
     
    
-// }
-// Buynow.apply(pro2,["shanmukh","praveen","sai"])
+}
+Buynow.apply(pro2,["shanmukh","praveen","sai"])
 
 
 
@@ -91,20 +91,20 @@ let arr2=[12,56,34,79]
 console.dir(arr1)
 
 
-// class arr{
-//     constructor(){
+class arr{
+    constructor(){
 
-//     }
+    }
 
-//     push(){
-//         //whole logical ;art to actually perform push
+    push(){
+        //whole logical ;art to actually perform push
 
-//     }
-//     pop(){
+    }
+    pop(){
 
-//     }
+    }
 
-// }
+}
 
 // let str="shanmukh"
 
