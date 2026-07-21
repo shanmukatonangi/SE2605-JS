@@ -1,0 +1,85 @@
+#box{
+    height: 200px;
+    width: 200px;
+    /* background-color: yellow; */
+    background-image: url(https://th.bing.com/th/id/OIP.u5vfXURbgam7h9f1uqhqGgHaHa?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3);
+    /* transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 2s; */
+    position: relative;
+    /* transition:all 3s linear 2s; */
+    animation-name: movebox;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+
+
+
+
+}
+
+/* #box:hover{
+    background-color: blue;
+    
+    /* width: 300px;
+    height: 300px; */
+   
+/* border-radius: 50%; */
+   /* transform: translate(-100px,-200px); */
+   /* transform: rotate(720deg);
+   transform: scale(2); */
+   /* transform:skew(45deg); */
+
+
+/* } */ 
+
+@keyframes movebox{
+
+    0%{
+        left:0;
+        background-color: yellowgreen;
+        transform: rotate(0deg) scale(1);
+
+
+
+
+    }
+
+    25%{
+        top:150px;
+        left: 150px;
+        background-color: rgb(94, 255, 0);
+        transform: rotate(45deg) scale(1.2);
+
+
+
+
+    }
+    50%{
+        top:300px;
+        left: 300px;
+        background-color: rgb(0, 255, 174);
+        transform: rotate(90deg) scale(1.4);
+
+    }
+    75%{
+        top:400px;
+        left: 450px;
+        background-color: rgb(14, 167, 197);
+        transform: rotate(135deg) scale(1.6);
+
+    }
+    100%{
+         top:400px;
+        left: 600px;
+        background-color: rgb(17, 0, 255);
+        transform: rotate(180deg) scale(1.8);
+
+    }
+
+
+
+}
+

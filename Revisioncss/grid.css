@@ -1,0 +1,33 @@
+#bigbox{
+    height: 800px;
+    width: 800px;
+    background-color: rgb(24, 18, 14);
+    display:grid;
+    /* grid-template-columns: 100px 200px 300px;
+    grid-template-rows: 100px 200px 300px; */
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    /* gap:10px */
+    column-gap: 10px;
+    row-gap: 20px;
+
+}
+
+.smallbox{
+    
+   
+    border: 1px solid white;
+    background-color: blue;
+}
+
+.one{
+    background-color: orange;
+    grid-row-start: 1;
+    grid-row-end:3;
+}
+
+.four{
+    background-color: greenyellow;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
